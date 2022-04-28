@@ -1,0 +1,1 @@
+{"mappings":"AAAAA,OAAOC,OAAS,KACdC,QAAQC,IAAI","sources":["src/script.ts"],"sourcesContent":["window.onload = () => {\n  console.log('brum brum!');\n};\n"],"names":["window","onload","console","log"],"version":3,"file":"index.35441758.js.map"}

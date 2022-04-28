@@ -1,0 +1,41 @@
+{
+  "name": "canvas-car",
+  "version": "1.0.0",
+  "description": "Game created with Canvas and Typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amargopastor/canvas-car.git"
+  },
+  "keywords": [
+    "Canvas Car",
+    "Canvas",
+    "Typescript"
+  ],
+  "author": "Marcos Iñigo Corral",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "dev": "parcel index.html",
+    "start": "parcel serve -p $PORT index.html",
+    "build": "npm run clean && npm run ghbuild",
+    "ghbuild": "parcel build --dist-dir docs --public-url /canvas-car index.html",
+    "clean": "rimraf docs dist"
+  },
+  "bugs": {
+    "url": "https://github.com/amargopastor/canvas-car/issues"
+  },
+  "homepage": "https://github.com/amargopastor/canvas-car#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "parcel": "^2.5.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
