@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/amargopastor/canvas-car#readme",
   "dependencies": {
+    "@types/node": "^17.0.29",
     "lodash": "^4.17.21",
     "parcel": "^2.5.0",
     "rimraf": "^3.0.2",

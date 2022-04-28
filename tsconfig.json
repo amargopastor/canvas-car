@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"lib": ["DOM"],
+		"lib": ["es5", "DOM"],
 		"incremental": true,
 		"target": "es2020",
 		"module": "commonjs",
